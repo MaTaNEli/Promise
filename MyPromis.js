@@ -1,7 +1,7 @@
 class Promise {
   #value;
   #implementThenFunc;
-  #DetailedLogEnable = false
+  #DetailedLogEnable = true
 
   constructor(resolve) {
     this.#logger("constructor the cb is: ", resolve.toString())
